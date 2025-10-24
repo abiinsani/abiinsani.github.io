@@ -5,8 +5,8 @@ on:
       - main
 
 permissions:
-  contents: write      
-  pages: write          
+  contents: write       # ✅ allows ghp-import to push to gh-pages
+  pages: write          # ✅ required for GitHub Pages deployments
   id-token: write
 
 jobs:
